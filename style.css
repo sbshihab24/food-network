@@ -1,11 +1,9 @@
-*{
+body{
     margin: 0;
     padding: 0;
     box-sizing:border-box;
     font-family: 'Poppins', sans-serif;
-}
-
-    
+    }
     .first-header{
         display: flex;
     }
@@ -13,31 +11,26 @@
     div{
         width: 50%;
     }
-    
     .header-div{
         margin-top: 90px;
     margin-left: 15%;
     color: rgb(65, 65, 65);
-}
-    
+    }
     h1{
         font-size: 50px;
     font-weight: 700;
     line-height: 1.5;
-}
-    
+    }
     span{
         color: rgb(132, 0, 255);
     }
-    
-    .header-div p
-    {margin-top: 16px;
-        font-weight: 700;
-        margin-bottom:30px;
+    .header-div p{
+    margin-top: 16px;
+     font-weight: 700;
+     margin-bottom:30px;
     padding-right: 80px;
     line-height: 1.5;
-}
-    
+    }
     div a{
         text-decoration: none;
     background-image: linear-gradient(to right,orange,tomato);
@@ -46,13 +39,133 @@
     padding: 15px;
     border-radius: 10px;
     }
-    
     div img{
-        width: 75%;
+     width: 75%;
     margin-left: 10%;
     margin-top: 20px;
-}
-
-
-
-
+    }
+    .healthy-food{
+        display: flex;
+    margin-top: 10%;
+    }
+    .healthy-div{
+        margin-top: 5%;
+    }
+    .healthy-food{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:500px;
+    width:100%;
+    margin-bottom: 180px;
+    }
+    .healthy-food img{
+    height:90%;
+    width: 60%;
+    margin-left: 20%;
+    }
+    .healthy-food-Information{
+     margin-top: 10%;
+    }
+    .healthy-food-Information h1{
+    margin-bottom: 50px;
+    color:red;
+    font-size: 40px;
+    }   
+    .healthy-food-Information p{
+        padding-right: 100px;
+    margin-bottom:25px;
+    line-height: 1.5;
+    }
+    .healthy-food-Information a{
+    font-size: 17px;
+    padding:16px;
+    padding-top: 20px;
+    }
+    .recipe-cook{
+    text-align: center;
+    color: rgb(27, 11, 248);
+    }
+    .recipe-book{
+     padding: 40px 140px;
+    color: rgb(77, 77, 77);
+    } 
+    .recipe-area{
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 2%;
+   }
+   .recipe-area .recipe-items{
+    width: 25%;
+   border:2px solid rgb(197, 11, 11);
+   border-radius:25px;
+   margin-left: 5% ;
+   box-shadow: 0 0 10px rgb(72, 7, 252);
+    }
+   .recipe-items img{width: 95%;
+   margin-left: 2.5%;
+   margin-top: 2.5%;}
+   
+   .recipe-items h1{
+    font-size: 40px;
+    color: red;
+   padding: 15px 10px;
+   margin: 0;
+    }
+   .recipe-items p{
+    font-size: 20px;
+   color: rgb(10, 10, 10);
+   padding: 10px 20px;
+    }
+    .food-gallery{
+        margin-top: 130px;
+    }
+    .food-gallery h1{
+        text-align: center;
+        font-size: 55px;
+        color:red;
+        font-family: fantasy;
+    }
+    .food-gallery p{
+        padding:20px 160px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .our-gallery{
+        display: flex;
+    width: 100%;}
+    .pictures{
+        width: 100%;
+    }
+    .pictures img{
+        width: 25%;
+    margin-left: 5%;
+    }
+    footer{
+    background-color: black;
+    margin-top: 100px;
+    width: 100%;
+     }
+    footer h4{
+    font-size:32px;
+    color: rgb(250, 9, 9);
+    text-align: center;
+    padding-top: 30px;
+    }
+    footer h3{
+        font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    }
+    footer p{
+    font-size: 20px;
+    color: white;
+    text-align:center;
+     padding-top: 10px;
+    padding-bottom: 5px;
+    }
+   
+  
